@@ -1,8 +1,8 @@
 .arcadeBackground {
-  height: auto;
+  /* height: auto;
   width: 2200px;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   background-size: cover;
-  position: relative;
+  /* position: relative; */
 }
