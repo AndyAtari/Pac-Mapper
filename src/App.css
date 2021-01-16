@@ -1,8 +1,5 @@
-.arcadeBackground {
-  /* height: auto;
-  width: 2200px;
-  background-position: center;
-  background-repeat: no-repeat; */
+
+body {
+  background: url('pacGhosts.jpeg') no-repeat center center fixed;
   background-size: cover;
-  /* position: relative; */
 }
