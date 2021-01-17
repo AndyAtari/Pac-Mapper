@@ -1,5 +1,54 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
   background: url('pacGhosts.jpeg') no-repeat center center fixed;
   background-size: cover;
+  font-family: 'Cyber', sans-serif;
 }
+
+#wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
+button {
+  font-family: 'Cyber', sans-serif;
+  cursor: pointer;
+  background-color: orange;
+  padding: 15px 15px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#start-button {
+}
+
+#map-button {
+}
+
+#start-button:hover {
+  background-color: pink;
+  border: none;
+}
+
+#map-button:hover {
+  background-color: aqua;
+  border: none;
+}
+
